@@ -42,7 +42,7 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
-    testAssemblyVer2: '$(Build.SourceDirectory)/test**.js'
+    testAssemblyVer2: '$(Build.SourcesDirectory)/test**.js'
 
 - task: CopyFiles@2
   inputs:
